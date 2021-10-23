@@ -25,7 +25,7 @@ a, a:hover{
 }
 .header-section .navbar-light .navbar-nav .nav-link{
     color: #28377e;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -76,7 +76,7 @@ a, a:hover{
     margin-top: 60px;
 }
 .who-we .title p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     color: #b0b0b1;
 }
@@ -139,8 +139,8 @@ a, a:hover{
     color: #fff;
 }
 .our-attorneys .title p{
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     color: #fff;
 }
 .our-attorneys .title .btn-link{
@@ -198,8 +198,8 @@ a, a:hover{
     margin-bottom: 20px;
 }
 .language-inner p{
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     color: #b0b0b1;
 }
 .language-inner .btn-link{
