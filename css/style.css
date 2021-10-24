@@ -218,46 +218,58 @@ a, a:hover{
     
     outline: none;
 }
-.contact-section{
+.contact-us{
+    background-color: #28377e;
     width: 100%;
     padding: 80px 0px;
-    background: #28377e;
 }
-.contact-section .title{
+.contact-us .title{
     width: 100%;
     text-align: center;
     padding: 0px 0px 70px;
 }
-.contact-section .title h2{
-    color: #fff;
+.contact-us .title h2{
+        color: #fff;
 }
-.contact-form{
-    text-align: center;
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
 }
-.contact-section input{
-    color: #fff;
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
 }
-.contact-section .form-control{
-    width: 600px;
-    height: 45px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid rgb(196, 195, 195);
-    margin-bottom: 16px;
-    margin-left: 28%;
+.contact-us .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact-us input {
+    background-color: transparent;
+    color: #eee;
     font-size: 18px;
-    line-height: 38px;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 1rem 0;
+    padding: 1px 0;
 }
-.contact-form .btn-warning{
+.w-100 {
+    width: 100%!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.contact-us .btn {
     padding: 10px 40px 10px 40px;
-    font-size: 14px;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     background: #f1602b;
     color: #fff;
+    outline: none;
 }
-.contact-form .btn-warning:hover{
+.contact-us .btn:hover{
     color: #0C1234;
     background: #fff;
     border-color: #fff;
